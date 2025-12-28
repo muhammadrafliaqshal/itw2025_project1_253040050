@@ -3,9 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Muhammad Rafli Aqshal | Profil Mahasiswa</title>
+    <title>Portofolio Rafli</title>
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
@@ -15,178 +15,152 @@
     />
   </head>
   <body>
-    <header>
-      <div class="logo">
-        <a href="#">Rafli</a>
-      </div>
-      <nav id="nav-menu">
+    <header class="kepala-halaman">
+      <div class="logo"><a href="#home">R A F L I</a></div>
+      <nav id="menu-navigasi">
         <ul>
-          <li><a href="#home">Home</a></li>
+          <li><a href="#home">Beranda</a></li>
           <li><a href="#about">Tentang</a></li>
-          <li><a href="#skills">Potensi</a></li>
-          <li><a href="#interest">Minat Studi</a></li>
+          <li><a href="#potential">Potensi</a></li>
+          <li><a href="#project">Proyek</a></li>
           <li><a href="#contact">Kontak</a></li>
         </ul>
       </nav>
-      <button class="hamburger" id="hamburger-btn">
+      <button class="tombol-menu" id="tombol-aksi">
         <i class="fas fa-bars"></i>
       </button>
     </header>
 
-    <section id="home" class="hero">
-      <div class="hero-content">
-        <p class="greeting">Halo, saya</p>
-        <h1>Muhammad Rafli Aqshal</h1>
-        <h2 class="typing-effect">
-          Mahasiswa Baru | Prodi Teknik Informatika.
-        </h2>
-        <p>
-          Antusias dalam eksplorasi Pengembangan Aplikasi Web dan siap belajar
-          untuk masa depan digital.
+    <main>
+      <section id="home" class="area-konten selamat-datang">
+        <div class="bingkai-profil">
+          <img src="rafli-profil.jpg" alt="Rafli Profil" class="foto-bulat" />
+        </div>
+        <p>Assalamualaikum! Perkenalkan Saya:</p>
+        <h1>MUHAMMAD RAFLI AQSHAL</h1>
+        <h2>Mahasiswa Teknik Informatika</h2>
+        <p class="deskripsi-diri">
+          Saya sangat excited sama dunia web! Website ini tugas pertama saya
+          buat belajar HTML dan CSS dasar. Tujuan saya simple, mau cepat jago
+          ngoding! Silahkan scroll ke bawah!
         </p>
-        <a href="#about" class="cta-button"
-          >Kenali Lebih Jauh <i class="fas fa-arrow-down"></i
+        <a href="#about" class="tombol-klik"
+          >Lihat Info Saya <i class="fas fa-chevron-down"></i
         ></a>
-      </div>
-      <div class="hero-image">
-        <img
-          src="rafli-profil.jpg"
-          alt="Foto Profil Muhammad Rafli Aqshal"
-          style="
-            width: 300px;
-            height: 300px;
-            object-fit: cover;
-            border-radius: 50%;
-            border: 5px solid var(--color-accent);
-            box-shadow: 0 0 30px rgba(142, 68, 173, 0.7);
-          "
-        />
-      </div>
-    </section>
+      </section>
 
-    <section id="about" class="about">
-      <h2 class="section-title">Tentang Saya</h2>
-      <div class="about-grid">
-        <div class="about-text">
-          <h3>Latar Belakang & Motivasi</h3>
-          <p>
-            Mahasiswa semester 1 di Universitas Pasundan. Saya memilih Prodi
-            Teknik Informatika karena tertarik pada dunia digital dan ingin
-            belajar bagaimana sebuah aplikasi web dibangun. Meskipun latar
-            belakang pendidikan menengah saya belum fokus pada IT, saya yakin
-            dengan semangat belajar dan penguasaan dasar komputer yang saya
-            miliki.
-          </p>
-          <p>
-            Saya melihat kuliah sebagai titik awal untuk mengembangkan kemampuan
-            praktis saya. Saya siap menginvestasikan waktu untuk menguasai
-            setiap modul yang diberikan, serta bersemangat mencari peluang untuk
-            berkolaborasi dalam tim pengembangan.
-          </p>
+      <section id="about" class="area-konten">
+        <h2 class="judul-utama">Tentang Saya</h2>
+        <div class="baris-info">
+          <div class="kartu-info">
+            <h3>Garis Besar Kuliah</h3>
+            <p>
+              Saya mahasiswa Teknik Informatika. Saya lagi fokus banget ke Web
+              Dasar (HTML/CSS). Saya suka olahraga biar badan sehat terus dan
+              nggak ngantuk pas kelas pagi!
+            </p>
+            <p>
+              Hobi saya: <i class="fas fa-running"></i> Olahraga &
+              <i class="fas fa-motorcycle"></i> Motoran.
+            </p>
+          </div>
+          <div class="kartu-info">
+            <h3>Data Pribadi Saya</h3>
+            <ul class="daftar-biodata">
+              <li><b>Jurusan:</b> Teknik Informatika</li>
+              <li><b>Angkatan:</b> 2025</li>
+              <li><b>Umur:</b> 19 Tahun</li>
+              <li><b>Asal Kota:</b> Subang</li>
+            </ul>
+          </div>
         </div>
-        <div class="about-info">
-          <h3>Informasi Kampus</h3>
-          <ul>
-            <li><strong>Prodi:</strong> Teknik Informatika</li>
-            <li><strong>Angkatan:</strong> 2025</li>
-            <li><strong>Domisili:</strong> Subang</li>
-            <li><strong>Email:</strong> mrafli.a1411@gmail.com</li>
-          </ul>
+      </section>
+
+      <section id="potential" class="area-konten">
+        <h2 class="judul-utama">Potensi</h2>
+        <div class="posisi-tengah">
+          <div class="kartu-info">
+            <h3><i class="fas fa-handshake"></i> Semangat Kolaborasi</h3>
+            <p>
+              Saya sangat terbuka untuk berkolaborasi dan antusias banget diajak
+              dalam proyek atau studi kasus kelompok. Saya percaya sharing
+              knowledge (ilmu) antar teman kuliah itu yang paling penting!
+            </p>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section id="skills" class="skills">
-      <h2 class="section-title">Potensi & Keahlian Dasar</h2>
-      <div class="skills-container" style="justify-content: center">
-        <div class="skill-card">
-          <i class="fas fa-handshake"></i>
-          <h3>Kerja Sama Adaptif</h3>
-          <p>
-            Mampu berkolaborasi secara efektif dalam tim, menghargai perspektif
-            yang beragam, dan adaptif terhadap perubahan lingkungan
-            kerja/belajar.
-          </p>
+      <section id="project" class="area-konten">
+        <h2 class="judul-utama">Proyek Saya</h2>
+        <div class="posisi-tengah">
+          <div class="kartu-info">
+            <h3><i class="fas fa-code"></i> Hasil Belajar</h3>
+            <p>
+              Website ini membuktikan kalau saya sudah bisa:
+              <br /><i class="fas fa-check-circle"></i> Struktur HTML (tag-tag),
+              <br /><i class="fas fa-check-circle"></i> Tata Letak CSS Dasar,
+              <br /><i class="fas fa-check-circle"></i> Desain yang Sederhana.
+            </p>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section id="interest" class="interest">
-      <h2 class="section-title">Minat & Fokus Studi</h2>
-      <div class="interest-content">
-        <p>Di semester ini, saya secara spesifik tertarik untuk mendalami:</p>
-        <ul class="interest-list">
-          <li>
-            <i class="fas fa-book-open"></i> Dasar-dasar HTML & CSS: Fokus pada
-            pembangunan struktur web yang rapi dan penataan gaya visual yang
-            responsif.
-          </li>
-          <li>
-            <i class="fas fa-rocket"></i> Perancangan Antarmuka Pengguna
-            (UI/UX): Mendalami prinsip-prinsip desain yang berpusat pada
-            pengalaman pengguna.
-          </li>
-        </ul>
-        <p class="call-to-action">
-          Saya mencari mentor dan peluang untuk terlibat dalam proyek
-          pembelajaran mandiri yang dapat memperkaya pengalaman *coding* saya.
-        </p>
-      </div>
-    </section>
+      <section id="contact" class="area-konten">
+        <h2 class="judul-utama">Hubungi Saya</h2>
+        <div class="wadah-formulir">
+          <form
+            action="https://formspree.io/f/mrafli.a1411@gmail.com"
+            method="POST"
+          >
+            <div class="kolom-isian">
+              <label>Email :</label>
+              <input
+                type="email"
+                name="email"
+                placeholder="nama@gmail.com..."
+                required
+              />
+            </div>
+            <div class="kolom-isian">
+              <label>Pesan :</label>
+              <textarea
+                name="message"
+                placeholder="Tulis pesan..."
+                rows="4"
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="tombol-kirim">Kirim Pesan</button>
+          </form>
+        </div>
 
-    <section id="contact" class="contact">
-      <h2 class="section-title">Mari Terhubung</h2>
-      <p class="contact-subtext">
-        Mari berdiskusi tentang peluang di kampus, kolaborasi *coding*, atau
-        prospek masa depan.
-      </p>
+        <div class="media-sosial">
+          <a
+            href="https://www.instagram.com/rafliaqshal_"
+            target="_blank"
+            class="tautan-sosmed instagram"
+          >
+            <i class="fab fa-instagram"></i> Instagram
+          </a>
+        </div>
+      </section>
+    </main>
 
-      <div class="contact-links">
-        <a href="mailto:mrafli.a1411@gmail.com" class="contact-btn email-btn">
-          <i class="fas fa-envelope"></i> Kirim Email
-        </a>
-        <a
-          href="https://wa.me/6281324432559"
-          target="_blank"
-          class="contact-btn linkedin-btn"
-        >
-          <i class="fab fa-whatsapp"></i> WhatsApp
-        </a>
-      </div>
-
-      <div class="social-links">
-        <a
-          href="https://instagram.com/rafliaqshal_"
-          target="_blank"
-          title="Instagram"
-          ><i class="fab fa-instagram"></i
-        ></a>
-      </div>
-    </section>
-
-    <footer>
-      <p>&copy; 2025 Muhammad Rafli Aqshal. Profil Mahasiswa.</p>
+    <footer class="kaki-halaman">
+      <p>&copy; 2025 Muhammad Rafli Aqshal.</p>
     </footer>
 
     <script>
-      document.addEventListener("DOMContentLoaded", () => {
-        const hamburger = document.getElementById("hamburger-btn");
-        const navMenu = document.getElementById("nav-menu");
+      // Menu HP
+      const tombol = document.getElementById("tombol-aksi");
+      const nav = document.getElementById("menu-navigasi");
+      const icon = tombol.querySelector("i");
 
-        hamburger.addEventListener("click", () => {
-          navMenu.classList.toggle("active");
-          hamburger.classList.toggle("active");
-        });
-
-        document.querySelectorAll("#nav-menu a").forEach((link) => {
-          link.addEventListener("click", () => {
-            if (window.innerWidth <= 768) {
-              navMenu.classList.remove("active");
-              hamburger.classList.remove("active");
-            }
-          });
-        });
-      });
+      tombol.onclick = () => {
+        nav.classList.toggle("aktif");
+        icon.classList.toggle("fa-bars");
+        icon.classList.toggle("fa-times");
+      };
     </script>
   </body>
 </html>
